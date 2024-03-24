@@ -7,12 +7,12 @@ spec:
   selector:
     matchLabels:
       app: project-8
-    template:
-      metadata:
-        labels:
-          app: project-8
-      spec:
-        containers:
-        - name: project-8
-          image: rakinkhan/project-8:latest
-  
+  template:
+    metadata:
+      labels:
+        app: project-8
+    spec:
+      containers:
+      - name: project-8
+        image: rakinkhan/wcd-project-3:latest
+

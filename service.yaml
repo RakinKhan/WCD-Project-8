@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: project-servie
+  name: project-service
 spec:
   selector:
     app: project-8
   ports:
     - protocol: 'TCP'
-      port:
-      targetPort:
-  type: loadBalancer
+      port: 3000    
+      targetPort: 3000
+  type: LoadBalancer
